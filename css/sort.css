@@ -1,0 +1,30 @@
+.sort_box {
+	background-color: white;
+	padding: 0 3.33vw;
+}
+
+.sort {
+	width: 100%;
+	background-color: #f4f8f7;
+	padding: 2.67vw 0vw;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	border-radius: 2vw;
+}
+
+.sort span {
+	width: 4vw;
+	height: 3.73vw;
+	font-size: 4.5vw;
+}
+
+.sort .sort_input {
+	border: 0;
+	outline: 0;
+	color: #666;
+	font-size: 3.47vw;
+	width: auto;
+	background-color: transparent;
+	margin-left: 2vw;
+}

@@ -1,0 +1,37 @@
+{
+  "id": "1863957",
+  "name": "fly",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1166728",
+      "name": "前进箭头",
+      "font_class": "qianjinjiantou",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "10047330",
+      "name": "更多",
+      "font_class": "ziyuan",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "14720578",
+      "name": "放大镜  搜索",
+      "font_class": "fangdajingsousuo",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "1166727",
+      "name": "后退箭头",
+      "font_class": "houtuijiantou",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    }
+  ]
+}

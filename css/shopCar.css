@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+html,body {
+	background-color: #f8f8f8;
+}
+
+.shopCar_list {
+	background-color: white;
+	margin-top: 2.13vw;
+	padding: 0 3.33vw 2.13vw;
+}
+
+.goods {
+	display: flex;
+	align-items: center;
+	padding-top: 6vw;
+}
+
+.goods-img {
+	width: 19.07vw;
+	height: 20.93vw;
+	margin-left: 2.27vw;
+}
+
+.goods .note {
+	margin-left: 3.47vw;
+
+}
+
+.note-title {
+	font-size: 3.47vw;
+	color: #000;
+	margin-top: 1.47vw;
+}
+
+.goods .arrt {
+	margin-top: 2.53vw;
+	font-size: 3.2vw;
+	color: rgb(38, 38, 38, .6);
+}
+
+.goods .price {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2.53vw;
+	color: #ff2732;
+	font-weight: bold;
+}
+
+.goodsprice {
+	font-size: 3.73vw;
+}
+
+.cart_num {
+	height: 3.73vw;
+	line-height: 3.73vw;
+	display: flex;
+	font-size: 2.43vw;
+	font-weight: normal;
+	color: #262626;
+}
+
+.cart_num>* {
+	width: 10.93vw;
+	text-align: center;
+}
+
+.cart_num span {
+	border: 0.27vw solid #999;
+}
+
+.cart_amount {
+	border: none;
+	outline: 0;
+	border-top: 0.27vw solid #999;
+	border-bottom: 0.27vw solid #999;
+}
+
+.more {
+	margin-top: 2vw;
+	padding: 4.67vw 3.33vw 6vw;
+	background-color: white;
+}
+
+.more .goods_title_box {
+	font-size: 3.47vw;
+	font-weight: 500;
+	color: #000;
+	margin: 0 2.27vw;
+	display: flex;
+	justify-content: center;
+}
+
+.high {
+	height: 30vw;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 13.33vw;
+	border-top: 0.05vw solid #ccc;
+	background-color: white;
+	display: flex;
+}
+
+.footer .left {
+	width: 76.53vw;
+	padding: 3.6vw 2.4vw 3.33vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.footer .all {
+	margin-right: 1.6vw;
+}
+
+.footer .all_text {
+	font-size: 3.47vw;
+	color: rgba(0,0,0,.6);
+}
+
+.footer .count {
+	font-size: 3.47vw;
+	color: #ff2732;
+}
+
+.symbol {
+	font-size: 2.4vw;
+}
+
+.footer .right {
+	width: 23.47vw;
+	background-color: #ff2732;
+	text-align: center;
+	padding-top: 3.6vw;
+}
+
+.confirm {
+	color: white;
+}

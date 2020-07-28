@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>编辑收货地址</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="icon/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/addAddress.css" />
+		<script src="js/jquery-3.5.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/addAddress.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/edit.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/PCASClass.js" type="text/javascript" charset="utf-8"></script>
+		<style>
+			a,
+		body,
+		select {
+		    font-size: 12px;
+		    text-decoration: none;
+			border: 0;
+		}
+		
+		a,
+		pre {
+		    color: #808080;
+		}
+		fieldset {
+			border: 0;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<!-- 头部标题 -->
+		</div>
+		<!-- 地址内容 -->
+		<div class="address">
+			<div class="address_name add-padding">
+				<input class="input" value="王先生">
+				<input class="input" value="1834783473">
+			</div>
+			<div class="city add-padding">
+				<script language="javascript" src="PCASClass.js"></script>
+				<fieldset style="padding:5px;">
+					<select name="province3"></select>
+					<select name="city3"></select>
+					<select name="area3"></select>
+				</fieldset>
+			</div>
+			<div class="street add-padding"><input class="input-detail" type="text" value="宁夏路18号5单元"></div>
+		</div>
+	
+		<button class="add" type="button">保存</button>
+	</body>
+	<script language="javascript" defer>
+		new PCAS("province3", "city3", "area3","山东省","青岛市","市北区");
+	</script>
+</html>

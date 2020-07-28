@@ -1,0 +1,455 @@
+@charset "utf-8";
+
+html,body {
+	background-color: #f8f8f8;
+}
+
+.swiper-container {
+	width: 100vw;
+	height: 100vw;
+}
+
+.swiper-container img {
+	width: 100vw;
+	height: 100vw;
+}
+
+.content {
+	padding: 4.24vw 3.33vw 4.8vw;
+	background-color: white;
+}
+
+.detail-title {
+	font-size: 3.47vw;
+	font-weight: 500;
+	color: #000;
+}
+
+.content_score {
+	margin-top: 4vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+.content_score>div {
+	display: flex;
+	justify-content: space-between;
+}
+
+.content_earn {
+	display: flex;
+}
+
+.content_score .score {
+	font-size: 2.67vw;
+	font-weight: 500;
+	color: #ff2732;
+	display: flex;
+	align-items: center;
+}
+
+.price-num {
+	font-size: 3.2vw;
+	margin-left: 1vw;
+}
+
+.content_score .price {
+	font-size: 2.93vw;
+	line-height: 3.6vw;
+	color: red;
+	font-weight: 500;
+}
+
+.price-text {
+	width: 13.73vw;
+	height: 3.87vw;
+	background-color: red;
+	border-radius: 2vw;
+	text-align: center;
+	color: white;
+	font-size: 2.67vw;
+	margin-right: 2.13vw;
+}
+
+.price-num {
+	font-size: 4.27vw;
+	font-weight: bold;
+}
+
+.score-img {
+	width: 2.4vw;
+	height: 2.53vw;
+	margin-right: 0.8vw;
+}
+
+.earn-img {
+	width: 2.67vw;
+	height: 2.93vw;
+	margin-right: 0.8vw;
+}
+
+.content_earn {
+	margin-top: 2.27vw;
+}
+
+.content_earn .earn {
+	font-size: 2.67vw;
+	color: red;
+	font-weight: 500;
+	margin-right: 3.2vw;
+}
+
+.earn-num {
+	font-size: 3.2vw;
+	margin-left: 1vw;
+}
+
+.content_earn .percentage {
+	font-size: 2.67vw;
+	color: #6e6e6e;
+}
+
+.detail {
+	margin-top: 2vw;
+	padding: 5.47vw 3.33vw 6vw;
+	background-color: white;
+}
+
+.detail .rights span {
+	display: inline-block;
+	width: 1.33vw;
+	height: 1.33vw;
+	background-color: red;
+	border-radius: 100%;
+	margin-right: 2.4vw;
+}
+
+.detail .rights {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.detail .rights li {
+	font-size: 3.47vw;
+	color: rgba(0, 0, 0, .6);
+	font-weight: bold;
+	width: 37.47vw;
+	margin-right: 3.07vw;
+}
+
+.detail .bottwn {
+	margin-bottom: 3.73vw;
+}
+
+.evaluation {
+	margin-top: 2vw;
+	padding: 4.67vw 3.33vw 6vw;
+	background-color: white;
+}
+
+.evaluation_header {
+	font-size: 3.73vw;
+	font-weight: 500;
+	border-bottom: 0.27vw solid #e5e5e5;
+	display: flex;
+	justify-content: space-between;
+}
+
+.evaluation_header .title_up {
+	color: #000000;
+	margin-bottom: 1.87vw;
+}
+
+.evaluation_header .iconfont {
+	margin-left: 1.73vw;
+	font-size: 3vw;
+	color: #000;
+}
+
+.red-text {
+	color: #ff2732;
+	margin-left: 1vw;
+}
+
+.evaluation_content {
+	margin-top: 3.47vw;
+}
+
+.evaluation_content .photo-box {
+	display: flex;
+	align-items: center;
+}
+
+
+.evaluation_content .photo {
+	width: 7.6vw;
+	height: 7.6vw;
+	margin-right: 1.87vw;
+}
+
+.pat-name {
+	font-size: 3.47vw;
+	color: #000;
+	font-weight: 500;
+}
+
+.evaluation_content .list {
+	margin-top: 2.13vw;
+	font-size: 2.67vw;
+	color: rgba(0, 0, 0, .6);
+	font-weight: 300;
+}
+
+.evaluation_content .text {
+	margin-top: 2.67vw;
+	font-size: 3.47vw;
+	color: #000;
+	font-weight: 500;
+}
+
+.evaluation_content .picture {
+	width: 62.53vw;
+	height: 11.2vw;
+}
+
+.goods {
+	margin-top: 2vw;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.goods .goods_title_box {
+	display: flex;
+	align-items: center;
+	height: 12vw;
+}
+
+.goods .goods_title_box>img {
+	width: 3.47vw;
+	height: 0.4vw;
+}
+
+.goods .goods_title {
+	font-size: 3.47vw;
+	font-weight: 500 ;
+	color: #000;
+	margin: 0 2.27vw;
+	
+}
+
+.goods .goods01 {
+	width: 100vw;
+	height: 110.13vw  ;
+	background: url(../img/con2.png);
+	background-size: cover;
+}
+
+.goods .goods02 {
+	width: 100vw;
+	height: 83.33vw;
+	background: url(../img/con3.png);
+	background-size: cover;
+}
+
+.more {
+	margin-top: 2vw;
+	padding: 4.67vw 3.33vw 6vw;
+	background-color: white;
+}
+
+.more .goods_title_box {
+	font-size: 3.47vw;
+	font-weight: 500;
+	color: #000;
+	margin: 0 2.27vw;
+	display: flex;
+	justify-content: center;
+}
+
+.high {
+	height: 30vw;
+}
+
+
+.down {
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+}
+
+.down .down_list {
+	display: flex;
+}
+
+.down .down_list li {
+	padding-top: 3.33vw;
+}
+
+.down .width01 {
+	display: flex;
+	justify-content: center;
+	width: 13.2vw;
+	height: 16vw;
+	border-right: 0.27vw solid #e5e5e5;
+}
+
+.down .width01 img {
+	width: 5vw;
+	height: 5vw;
+}
+
+.down .width01>img.hide {
+	display: none;
+}
+
+.down .width02 {
+	width: 30.4vw;
+	text-align: center;
+	font-size: 3.47vw;
+	font-weight: 500;
+}
+
+.down .add {
+	color: #000000;
+}
+
+.down .sale {
+	color: white;
+	background-color: #ff2732;
+}
+
+.check {
+	position: fixed;
+	bottom: 0;
+	padding: 4.4vw 3.33vw;
+	width: 100vw;
+	height: 115.47vw;
+	background-color: white;
+	box-sizing: border-box;
+	z-index: 100;
+	display: none;
+}
+
+.check .min_title {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.check .left {
+	display: flex;
+	align-items: flex-end;
+}
+
+.check .left>img {
+	width: 23.04vw;
+	height: 25.6vw;
+	margin-right: 3.2vw;
+}
+
+.check p {
+	font-size: 3.73vw;
+	color: red;
+}
+
+.check-price-num {
+	font-size: 4.27vw;
+	font-weight: bold;
+}
+
+.check .arrt {
+	margin-top: 2.67vw;
+	font-size: 2.93vw;
+	color: #262626;
+}
+
+.check .close {
+	width: 3.6vw;
+	height: 3.6vw;
+}
+
+.check h2 {
+	font-size: 3.47vw;
+	color: #262626;
+	font-weight: 500;
+}
+
+.check .size_title {
+	margin-top: 6.53vw;
+}
+
+.check .size>div {
+	width: 46.8vw;
+	height: 6.93vw;
+	padding: 1.87vw 2.93vw;
+	border: 0.27vw solid #999;
+	font-size: 3.2vw;
+	font-weight: 500;
+	margin-top: 2.93vw;
+	color: #262626;
+	line-height: 6.93vw;
+}
+
+.check .size>div.chose {
+	border-color: red;
+	color: red;
+}
+
+.check .num_title {
+	margin-top: 4.27vw;
+}
+
+.cart_num {
+	height: 5.33vw;
+	padding: 2.53vw;
+	display: flex;
+	font-size: 3.47vw;
+	color: #262626;
+}
+
+.cart_num>* {
+	width: 10.93vw;
+	text-align: center;
+}
+
+.cart_num>span {
+	border: 0.27vw solid #999;
+}
+
+.cart_amount {
+	border: none;
+	outline: 0;
+	border-top: 0.27vw solid #999;
+	border-bottom: 0.27vw solid #999;
+}
+
+.close_enter {
+	border: 0;
+	background-color: #ff2732;
+	width: 93.07vw;
+	height: 8.4vw;
+	position: absolute;
+	bottom: 12.8vw;
+	border-radius: 2vw;
+	font-size: 2.8vw;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

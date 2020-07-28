@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+html,body {
+	background-color: #f8f8f8;
+}
+
+.banner_box {
+	background-color: white;
+}
+
+.swiper-container {
+	width: 92.53vw;
+	height: 43.6vw;
+	margin: 0 3.2vw;
+	padding-top: 1.87vw;
+}
+
+.swiper-container img {
+	width: 92.53vw;
+	height: 43.6vw;
+}
+
+.active {
+	padding: 0 3.2vw;
+	padding-bottom: 3.6vw;
+	background-color: white;
+}
+
+.active_list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.active li {
+	box-sizing: border-box;
+	margin-top: 4vw;
+	width: 25%;
+	text-align: center;
+}
+
+.active img {
+	width: 8.8vw;
+	height: 10vw;
+}
+
+.active h1 {
+	margin-top: 3.33vw;
+	font-size: 3.47vw;
+}
+
+.recommend {
+	background-color: white;
+	margin-top: 2.67vw;
+}
+
+.evaluation_header {
+	font-size: 3.73vw;
+	font-weight: bold;
+	border-bottom: 0.27vw solid #e5e5e5;
+	padding: 4.67vw 3.33vw 2.27vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+.evaluation_header .title {
+	color: #101010;
+	margin-bottom: 1.87vw;
+}
+
+.evaluation_header .iconfont {
+	margin-left: 1.73vw;
+	color: #000;
+	font-size: 3vw;
+}
+
+.recommend .item_box {
+	padding: 0vw 3.33vw 6vw;
+}
+

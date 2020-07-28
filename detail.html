@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>商品详情</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="icon/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/detail.css" />
+		<script src="js/jquery-3.5.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/detail.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="header">
+			<!-- 头部标题 -->
+		</div>
+		<!-- banner -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><a href=""><img src="img/swiper.png"></a></div>
+				<div class="swiper-slide"><a href=""><img src="img/swiper.png"></a></div>
+				<div class="swiper-slide"><a href=""><img src="img/swiper.png"></a></div>
+			</div>
+			<!-- 如果需要分页器 -->
+			<div class="swiper-pagination"></div>
+		</div>
+		<!-- 商品信息 -->
+		<div class="content">
+			<div class="name"><a class="detail-title" href="">水星家纺提花套件欧式简约提花四件套侧耳倾听1.5/1.8米床上用品</a></div>
+			<div class="content_score">
+				<div class="score"><img class="score-img" src="img/icon1.png" alt="">积分抵扣： <span class="price-num">27.9</span></div>
+				<div class="price">
+					<div class="price-text">到手价</div> ￥<span class="price-num">61.9</span>
+				</div>
+			</div>
+			<div class="content_earn">
+				<div class="earn"><img class="earn-img" src="img/icon2.png" alt="">赚￥<span class="earn-num">13.19</span></div>
+				<div class="percentage">佣金比例： 15.00%</div>
+			</div>
+		</div>
+		<div class="detail">
+			<ul class="rights">
+				<li class="bottwn"><span></span>支持7天无理由退换货</li>
+				<li class="bottwn"><span></span>满88元包邮</li>
+				<li><span></span>国内部分地区不配送</li>
+				<li><span></span>支持积分抵扣</li>
+			</ul>
+		</div>
+		<div class="evaluation">
+			<div class="evaluation_header">
+				<div class="title_up">评价</div>
+				<div>412条，<b class="red-text">99%</b>好评<a href=""><span class="iconfont icon-qianjinjiantou"></span></a></div>
+			</div>
+			<div class="evaluation_content">
+				<div class="photo-box">
+					<img class="photo" src="img/head.png" alt="">
+					<span class="pat-name">粉丝昵称</span>
+				</div>
+				<div class="list"><span>2019.05.29</span><span>天蓝色</span><span>1.8米（6英尺）床</span></div>
+				<div class="text">评价内容评价内容评价内容评价内容评价内容评价内容</div>
+				<img class="picture" src="img/con1.png">
+			</div>
+		</div>
+		<div class="goods">
+			<div class="goods_title_box">
+				<img src="img/line.png">
+				<div class="goods_title">商品详情</div>
+				<img src="img/line.png">
+			</div>
+			<div class="goods01"></div>
+			<div class="goods02"></div>
+		</div>
+
+		<div class="more">
+			<div class="goods_title_box">
+				<div class="goods_title">更多推荐</div>
+			</div>
+			<div class="item_box">
+				<!-- 导入item -->
+			</div>
+		</div>
+		
+		<!-- 垫高底部 -->
+		<div class="high"></div>
+
+		<!-- 底部 -->
+		<footer class="down">
+			<ul class="down_list">
+				<li class="width01"><a href=""><img src="img/chat.png"></a></li>
+				<li class="width01"><a href="shopCar.html"><img src="img/shopcart.png"></a></li>
+				<li class="width01" id="click_col"><img src="img/star_white.png"><img class="hide" src="img/star_red.png"></li>
+				<li class="width02 add">加入购物车</li>
+				<li class="width02 sale">立即购买</li>
+			</ul>
+		</footer>
+
+		<!-- 弹出层 -->
+		<div class="check">
+			<div class="min_title">
+				<div class="left">
+					<img src="img/good.png" alt="">
+					<div>
+						<p>价格： ￥<span class="check-price-num">61.9</span></p>
+						<div class="arrt">请选择规格属性</div>
+					</div>
+				</div>
+				<img class="close close_enter" src="img/close.png" alt="">
+			</div>
+			<h2 class="size_title">尺寸</h2>
+			<div class="size">
+				<div class="size_chock">1.5M床：适用2M×2.3M被芯</div>
+				<div class="size_chock">1.8M床：适用2.2M×2.4M被芯</div>
+			</div>
+			<h2 class="num_title">数量</h2>
+			<div class="num">
+				<div class="cart_num">
+					<span class="reduce">-</span>
+					<input class="cart_amount" type="text" value="1" readonly="readonly">
+					<span class="augment">+</span>
+				</div>
+			</div>
+			<button class="close_enter">确定</button>
+		</div>
+	</body>
+</html>
